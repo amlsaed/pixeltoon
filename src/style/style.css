@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+body {
+  font-family: 'Cairo', sans-serif;
+  box-sizing: border-box !important;
+  direction: rtl; }
+  body ul {
+    list-style-type: none !important; }
+  body button {
+    box-shadow: none !important;
+    outline: none !important; }
+  body .header {
+    height: 10%;
+    box-shadow: 0px 0px 13px -3px #aaa7a7; }
+    body .header nav form {
+      border: 1px solid greenyellow;
+      border-radius: 20px;
+      transition: all 1s linear;
+      background-color: #fff; }
+      body .header nav form:hover {
+        transform: scale(2, 1.2);
+        border: 1px solid #f8f9fa;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px -5px gray; }
+      body .header nav form .form-control {
+        border: none !important;
+        outline: none !important;
+        background-color: transparent !important;
+        color: violet !important;
+        box-shadow: none;
+        transition: all 1s linear; }
+        body .header nav form .form-control:hover {
+          transform: scale(1.1, 1.2); }
+    body .header nav .menu-icon img {
+      animation: pulse 1s linear 0s infinite alternate;
+      transition: all 500ms ease-in-out; }
+      body .header nav .menu-icon img:hover {
+        transform: scale(1.2);
+        animation: none; }
+  body .menu {
+    background-color: #9acd32;
+    background-position: center;
+    z-index: 10000000 !important;
+    position: absolute;
+    display: none;
+    top: 0 !important;
+    width: 100% !important;
+    text-align: center;
+    overflow: hidden;
+    background-image: url("/assets/imgs/background/nn.png"); }
+    body .menu ul {
+      position: relative;
+      background-color: #9acd32;
+      height: 50%;
+      margin: 10% auto;
+      border: 8px solid;
+      border: 3px solid #9acd32;
+      box-shadow: 0px 0px 19px 0px #fff;
+      width: 30% !important; }
+      body .menu ul li {
+        width: 100% !important;
+        height: 25% !important; }
+        body .menu ul li a {
+          padding: 8%;
+          font-weight: bold;
+          font-size: 2rem;
+          color: #fff;
+          transition: all .5s ease-out;
+          text-decoration: none; }
+          body .menu ul li a:hover {
+            color: #fffb02;
+            transform: scale(1.2); }
+    body .menu button {
+      position: absolute;
+      top: 10px;
+      left: 10px; }
+      body .menu button img {
+        width: 100px; }
+    body .menu .moving-imgs:first-of-type {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      animation: pulse 3s linear 0s infinite alternate; }
+    body .menu .moving-imgs:nth-of-type(2) {
+      position: absolute;
+      top: 60%;
+      left: 10%;
+      animation: rotation 6s linear 0s infinite alternate; }
+    body .menu .moving-imgs:nth-of-type(3) {
+      position: absolute;
+      top: 6%;
+      left: 18%;
+      animation: ghaust 5s linear 3s infinite alternate;
+      z-index: -1; }
+    body .menu .moving-imgs:nth-of-type(4) {
+      position: absolute;
+      top: 61%;
+      right: 4%; }
+    body .menu .moving-imgs:nth-of-type(5) {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      animation: pulse 6s linear 0s infinite alternate; }
+    body .menu .moving-imgs:nth-of-type(6) {
+      position: absolute;
+      top: 5%;
+      right: 30%; }
+    body .menu .moving-imgs:nth-of-type(7) {
+      position: absolute;
+      top: 76%;
+      left: 8%; }
+    body .menu .moving-imgs:nth-of-type(8) {
+      position: absolute;
+      top: 18%;
+      left: 15%; }
+    body .menu .moving-imgs:nth-of-type(9) {
+      position: absolute;
+      top: 64%;
+      right: 18%;
+      animation: rocket 4s linear 2s infinite; }
+  body .openmenu {
+    display: block; }
+  body .footer {
+    height: 60px !important;
+    width: 100% !important;
+    box-shadow: 0px 0px 13px -3px #aaa7a7; }
+    body .footer div {
+      margin-top: 5px; }
+      body .footer div span {
+        padding: 10px; }
+        body .footer div span a {
+          color: yellowgreen;
+          text-decoration: none;
+          transition: all 1s ease-in-out; }
+          body .footer div span a:hover {
+            transform: scale(1.5); }
+  body .home {
+    position: relative;
+    overflow-y: hidden;
+    text-align: center;
+    direction: ltr; }
+    body .home .react-multi-carousel-track {
+      height: 500px; }
+      body .home .react-multi-carousel-track a {
+        text-decoration: none;
+        color: #9acd32;
+        font-weight: bold;
+        position: relative;
+        text-align: center; }
+        body .home .react-multi-carousel-track a img {
+          width: 50%;
+          margin-top: 25% !important;
+          display: block;
+          margin-left: 25%; }
+        body .home .react-multi-carousel-track a span {
+          margin-top: 20%;
+          font-size: 3em; }
+  body .storysec {
+    border: 1px solid #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    background-color: #9acd32;
+    background-image: url("/assets/imgs/background/nn.png"); }
+    body .storysec .storytype {
+      background-color: #9acd32;
+      box-shadow: -1px 1px 5px 3px #fff;
+      padding: 20px;
+      width: 400px !important;
+      text-align: center;
+      border: 8px solid #fff;
+      border-radius: 5px;
+      position: relative;
+      margin-top: 15% !important; }
+      body .storysec .storytype a {
+        text-decoration: none;
+        font-size: 3em;
+        color: #fff; }
+        body .storysec .storytype a img {
+          display: block;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          position: absolute;
+          border: 8px solid #9acd32;
+          background-color: #fff;
+          padding: 10px;
+          bottom: 80%; }
+        body .storysec .storytype a span {
+          margin-top: 5% !important; }
+  body .react-multiple-carousel__arrow {
+    background: #fffb02 !important; }
+  body .parents .parents_section a {
+    width: 15% !important;
+    margin: 5% !important; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+@keyframes fairy {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-100px); } }
+@keyframes ghaust {
+  0% {
+    transform: translatex(0); }
+  100% {
+    transform: translatex(-100px); } }
+@keyframes witch {
+  0% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(100px, 100px); } }
+@keyframes bye {
+  from {
+    transform: rotate(15deg); }
+  to {
+    transform: rotate(-15deg); } }
+@keyframes rocket {
+  from {
+    transform: translateY(0); }
+  to {
+    transform: translatey(-300px); } }
+@keyframes pulse {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.2); } }
+
+/*# sourceMappingURL=style.css.map */
